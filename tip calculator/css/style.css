@@ -127,16 +127,16 @@ button:active {
   display: block;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 360px){
 	#container {
-  		height: 400px;
-  		width: 360px;
-  		margin: 100px auto;
+  		height: 100%;
+  		width: 320px;
+  		margin: 20px auto;
   		background: #ffffff;
   		box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   		border-radius: 10px;
-  		-webkit-border-radius: 20px;
-  		-moz-border-radius: 20px;
+  		-webkit-border-radius: 10px;
+  		-moz-border-radius: 10px;
 }
 
 
